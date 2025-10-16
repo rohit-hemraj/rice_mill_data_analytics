@@ -1,0 +1,25 @@
+# streamlit>=1.36
+# pandas>=2.1
+# numpy>=1.26
+# plotly>=5.24
+# openpyxl>=3.1
+# reportlab>=4.2
+
+# Core app
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+
+# Charts (on-screen with Plotly, PDF export via Matplotlib)
+plotly>=5.20
+matplotlib>=3.7
+
+# PDF generation
+reportlab>=4.0
+
+# Excel support
+openpyxl>=3.1           # .xlsx
+xlrd==1.2.0             # .xls (older Excel format)
+
+# Optional: if you *also* want Plotly -> PNG export via kaleido (not required for this app)
+# kaleido>=0.2.1
